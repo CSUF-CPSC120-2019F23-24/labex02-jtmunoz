@@ -12,13 +12,13 @@ int main()
   std::cout << "What is the room's width in feet? ";
   std::cin >> width;
   std::cout << "What is the room's length in feet? ";
-  std::cin >> area;
+  std::cin >> length;
 
   // Calculate the area of the room.
   area = length * width;
 
   // Display the area of the room.
-  std::cout << "The \"area\" of the room is 204.7 square feet./n";
+  std::cout << "The area of the room is " << area << "square feet./n";
 
   return 0;
 }
